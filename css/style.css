@@ -1,0 +1,94 @@
+*{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins; 
+    border: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:#9c0000;
+}
+
+header{
+    font-size: 1.5em;
+    padding: 0 20px;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 15px; */
+}
+ .entrar{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     /* margin-top: 100px; */
+ }
+h1{
+    text-align: center;
+    font-size: 3.3em;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.form{
+    margin-top: 80px;
+}
+
+    form{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    font-weight: bold;
+    color:#9c0000 ;
+    background-color: white;
+    border: 2px;
+    width: 125px;
+    border-radius: 15px;
+    height: 35px;
+    margin-top: 30px;
+}
+.input{
+    width: 60%;
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    border-bottom: solid 1px white;
+    padding: 0 20px;
+    color: white;
+    font-size: medium;
+    outline: none;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+#input{
+    margin-top: 30px;
+}
+footer{
+    height: 90px;
+    text-align: center;
+}
+
+@media (max-width: 720px){
+      
+    p{
+        font-size: 0.8rem;
+    }
+
+}
